@@ -1,0 +1,12 @@
+[server]
+# Disables Streamlit's file watcher system completely.
+# This prevents the app from aggressively deep-scanning your global 
+# Python directories for code changes, which avoids the 'torchvision' 
+# crash caused by third-party packages like Hugging Face transformers.
+fileWatcherType = "none"
+
+[browser]
+# Disables the automatic gathering of usage statistics by Streamlit.
+# This ensures that your application runs in complete privacy locally, 
+# preventing telemetry data from being sent to external corporate servers.
+gatherUsageStats = false
