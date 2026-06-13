@@ -1,0 +1,13 @@
+Identity Access Management Policy
+
+Finance Access:
+Requires Manager Approval and Finance Owner Approval.
+
+HR Access:
+Requires HR Manager Approval.
+
+Privileged Access:
+Requires Security Team Approval.
+
+Access Reviews:
+Performed quarterly by application owners.
